@@ -1,6 +1,7 @@
 # meshtastic-remote-node
 
---MR-W Meshtastic Build-- 
+--MR-W Meshtastic Build--
+
 With this build, I am running a high level router/repeater in Modesto. The entire box sits at ~130ft on a radio tower, and is controlled entirely via the RPI4. 
 I can use VNC to use the web flasher or web client, and SSH for all else. 
 
