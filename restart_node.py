@@ -3,7 +3,7 @@
 import RPi.GPIO as GPIO
 import time
 
-RESTART_BUTTON_PIN = 5   # GPIO5 for the restart button (blue)
+RESTART_BUTTON_PIN = 5   # GPIO5 for the restart button
 
 # Setup GPIO
 GPIO.setmode(GPIO.BCM)  # Use BCM pin numbering
