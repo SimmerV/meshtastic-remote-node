@@ -1,0 +1,18 @@
+## SYSTEMD service entry to run in the venv, replace [ ] entries with applicable info
+
+[Unit]
+Description=Fan Control Service
+After=multi-user.target
+
+[Service]
+WorkingDirectory= [ENTER BASE DIR]
+ExecStart=[BASE DIR]/env/bin/python3 [BASE DIR]/fan_control.py
+StandardOutput=journal
+StandardError=journal
+Restart=always
+User=[USER]
+Group=[GROUP]
+Environment="PYTHONUNBUFFERED=1"
+
+[Install]
+WantedBy=multi-user.target
