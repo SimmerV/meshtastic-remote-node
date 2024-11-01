@@ -1,3 +1,5 @@
+## This script requires the splicing of wires from the Station G2 restart button traces to a relay
+
 import RPi.GPIO as GPIO
 import time
 
