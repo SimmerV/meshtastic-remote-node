@@ -28,3 +28,9 @@ fan_control.py  # Controls Noctua fans via PWM
 restart_node.py  # Standalone restart script
  
 flash_firmware.py  # Places Station G2 in firmware flashing mode
+
+
+
+CURRENT LIMITATIONS: 
+
+At the moment, I am unable to correctly pull RPM data via wire - instead, script prints expected RPM based on duty cycle
