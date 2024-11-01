@@ -1,11 +1,11 @@
-## This script requires the splicing of wires from the Station G2 button traces to a relay
+## This script requires soldering wires from the Station G2 "restart" and "firmware" button traces to a relay
 
 import RPi.GPIO as GPIO
 import time
 
 # Define GPIO pins for the relay channels
-FIRMWARE_BUTTON_PIN = 6  # GPIO06 for the firmware button (green)
-RESTART_BUTTON_PIN = 5   # GPIO05 for the restart button (blue)
+FIRMWARE_BUTTON_PIN = 6  # GPIO06 for the firmware button
+RESTART_BUTTON_PIN = 5   # GPIO05 for the restart button
 
 # Setup GPIO
 GPIO.setmode(GPIO.BCM)  # Use BCM pin numbering
